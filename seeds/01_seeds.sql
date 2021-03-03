@@ -1,7 +1,7 @@
 INSERT INTO users (name, email, password)
-VALUES ('Spongebob Squarepants', 'spongebobsquarepants@gmail.com, '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u'),
-('Patrick Star', 'patrickstar@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u'),
-('Squidward Tentacles', 'squidwardtentacles@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
+VALUES ('Spongebob Squarepants', 'spongebobsquarepants@gmail.com, '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+('Patrick Star', 'patrickstar@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+('Squidward Tentacles', 'squidwardtentacles@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
 INSERT INTO properties (owner_id, title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code, active)
 VALUES (1, 'Pineapple House', 'description', 'https://images.pexels.com/photos/1-thumbnail', 'https://images.pexels.com/photos/1-cover', 25000, 2, 2, 2, 'Canada', '123 Spongebob Street', 'Vancouver', 'British Columbia', 'V5P 0B0', true),
