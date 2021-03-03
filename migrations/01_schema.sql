@@ -1,7 +1,11 @@
+-- DROP statements for ease of re-running file
+
 DROP TABLE IF EXISTS users CASCADE;
 DROP TABLE IF EXISTS properties CASCADE;
 DROP TABLE IF EXISTS reservations CASCADE;
 DROP TABLE IF EXISTS property_reviews CASCADE;
+
+-- CREATE tables
 
 CREATE TABLE users (
     id SERIAL PRIMARY KEY NOT NULL,
