@@ -1,7 +1,5 @@
 const properties = require("./json/properties.json");
 const users = require("./json/users.json");
-
-// Require database adapter file
 const db = require('./index.js')
 
 // Users
